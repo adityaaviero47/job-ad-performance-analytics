@@ -1,0 +1,175 @@
+{
+  "validation": {
+    "postings": 5000,
+    "missing_company": 64,
+    "missing_views": 72,
+    "applies_not_recorded": 4053,
+    "applies_not_recorded_share": 0.8106,
+    "salary_shown": 1211,
+    "salary_min_above_max": 0,
+    "applies_above_views": 0,
+    "expiry_before_posting": 0,
+    "probable_duplicates": 31
+  },
+  "data": {
+    "start": "2024-01-26",
+    "end": "2024-04-20"
+  },
+  "visibility": {
+    "postings_with_views": 4928,
+    "total_views": 68323,
+    "median_views": 4.0,
+    "top10_share_of_views": 0.6480833687045358,
+    "bottom50_share_of_views": 0.11044596987837185,
+    "share_under_5_views": 0.5278003246753247
+  },
+  "apply_rate": {
+    "postings": 783,
+    "median": 0.1346153846153846,
+    "pooled": 0.21589358799454297,
+    "top_quartile": 0.22128060263653482,
+    "bottom_quartile": 0.07968253968253969
+  },
+  "segments": [
+    {
+      "segment": "Salary shown",
+      "postings": 1211,
+      "share": 0.2422,
+      "median_views_yes": 5.0,
+      "median_views_no": 4.0,
+      "mean_views_yes": 18.620401337792643,
+      "mean_views_no": 12.340032154340836,
+      "views_p": 2.2232616154881173e-06,
+      "apply_rate_yes": 0.14285714285714285,
+      "apply_rate_no": 0.13093167701863354,
+      "apply_n_yes": 273,
+      "apply_n_no": 510,
+      "apply_p": 0.0449287321001406
+    },
+    {
+      "segment": "Remote",
+      "postings": 62,
+      "share": 0.0124,
+      "median_views_yes": 5.0,
+      "median_views_no": 4.0,
+      "mean_views_yes": 27.56451612903226,
+      "mean_views_no": 13.689683518290177,
+      "views_p": 0.07908364420067093,
+      "apply_rate_yes": 0.12,
+      "apply_rate_no": 0.13548951048951047,
+      "apply_n_yes": 19,
+      "apply_n_no": 764,
+      "apply_p": 0.6524802154899311
+    },
+    {
+      "segment": "Senior title",
+      "postings": 1419,
+      "share": 0.2838,
+      "median_views_yes": 5.0,
+      "median_views_no": 4.0,
+      "mean_views_yes": 16.350537634408603,
+      "mean_views_no": 12.882536088310218,
+      "views_p": 1.4846442307827405e-06,
+      "apply_rate_yes": 0.12987012987012986,
+      "apply_rate_no": 0.13946206696046026,
+      "apply_n_yes": 285,
+      "apply_n_no": 498,
+      "apply_p": 0.14646408135637332
+    },
+    {
+      "segment": "Entry-level title",
+      "postings": 401,
+      "share": 0.0802,
+      "median_views_yes": 4.0,
+      "median_views_no": 4.0,
+      "mean_views_yes": 17.936708860759495,
+      "mean_views_no": 13.509375689388925,
+      "views_p": 0.9928526445509281,
+      "apply_rate_yes": 0.12771739130434784,
+      "apply_rate_no": 0.13740458015267176,
+      "apply_n_yes": 64,
+      "apply_n_no": 719,
+      "apply_p": 0.8739697753523831
+    }
+  ],
+  "families": [
+    {
+      "family": "Other",
+      "postings": 2698,
+      "median_views": 4.0,
+      "mean_views": 13.6207,
+      "share": 0.5396,
+      "apply_rate_median": 0.1302,
+      "apply_n": 400
+    },
+    {
+      "family": "Healthcare",
+      "postings": 601,
+      "median_views": 4.0,
+      "mean_views": 5.9529,
+      "share": 0.1202,
+      "apply_rate_median": 0.1,
+      "apply_n": 27
+    },
+    {
+      "family": "Sales & marketing",
+      "postings": 518,
+      "median_views": 4.0,
+      "mean_views": 10.7367,
+      "share": 0.1036,
+      "apply_rate_median": 0.1234,
+      "apply_n": 80
+    },
+    {
+      "family": "Software & data",
+      "postings": 452,
+      "median_views": 6.0,
+      "mean_views": 35.0938,
+      "share": 0.0904,
+      "apply_rate_median": 0.2,
+      "apply_n": 160
+    },
+    {
+      "family": "Admin & customer service",
+      "postings": 377,
+      "median_views": 4.0,
+      "mean_views": 10.1233,
+      "share": 0.0754,
+      "apply_rate_median": 0.0952,
+      "apply_n": 57
+    },
+    {
+      "family": "Finance & accounting",
+      "postings": 240,
+      "median_views": 5.0,
+      "mean_views": 11.2179,
+      "share": 0.048,
+      "apply_rate_median": 0.1143,
+      "apply_n": 51
+    },
+    {
+      "family": "Driving & logistics",
+      "postings": 114,
+      "median_views": 4.0,
+      "mean_views": 9.0351,
+      "share": 0.0228,
+      "apply_rate_median": 0.1364,
+      "apply_n": 8
+    }
+  ],
+  "salary_lever": {
+    "postings_without_salary": 3789,
+    "share": 0.7578,
+    "view_uplift_if_matched": 0.5089426919558366,
+    "extra_views_on_sample": 23438.33779264214,
+    "share_of_total_views": 0.3430519414054146,
+    "note": "association, not proven cause: postings that show pay differ in other ways"
+  },
+  "triage": {
+    "low_visibility_postings": 2601,
+    "low_visibility_share": 0.5202,
+    "weak_conversion_postings": 196,
+    "weak_conversion_view_share": 0.1696580832196453,
+    "weak_conversion_apply_share": 0.03515007898894155
+  }
+}
